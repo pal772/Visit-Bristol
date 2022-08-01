@@ -49,3 +49,18 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 2px solid #3a3a3a;
 }
+
+/* main image */
+
+#Bristol_Marina-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#Bristol_Marina-image {
+    height: 600px;
+    width: 100%;
+    background: url("https://www.robertharding.com/watermark.php?type=preview&im=RF/RH_RF/HORIZONTAL/1202-383") no-repeat center center;
+    background-size: cover;
+}
