@@ -1,67 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mouse+Memoirs&family=Oswald:wght@300&family=Square+Peg&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+} 
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-}
 /* headings and logo */
 
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-decoration: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-}
-
 #logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 240%;
 }
 
-/* navigation links */
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 3px;
+header {
+    background-image: url('../images/bristol.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li {
+ul {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-top: auto;
+    margin-right: 20px;
 }
 
-#menu a {
+ul li {
+    display: inline-block;
+}
+
+ul li a{
     text-decoration: none;
-    color: inherit;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.65s ease;
 }
 
-#menu a:hover {
-    border-bottom: 2px solid #3a3a3a;
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
 }
 
-/* main image */
-
-#Bristol_Marina-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-}
-
-#Bristol_Marina-image {
-    height: 600px;
-    width: 100%;
-    background: url("https://www.robertharding.com/watermark.php?type=preview&im=RF/RH_RF/HORIZONTAL/1202-383") no-repeat center center;
-    background-size: cover;
-}
