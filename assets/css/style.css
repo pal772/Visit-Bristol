@@ -116,9 +116,50 @@ h2 {
 
 /* image slider */
 
-#slider {
+.slider {
+    width: 900px;
+    height: 480px;
+    background: url('../images/ss1.jpg');
+    margin: 100px auto;
+    animation: slide 30s ease;
+    max-width: 100%;
+    background-size: cover;
+}
+
+@keyframes slide {
+    25% {
+        background: url('../images/ss2.jpg');
+        background-size: cover;
+    }
+    50% {
+        background: url('../images/ss3.jpg');
+        background-size: cover;
+    }
+    75% {
+        background: url('../images/ss4.jpg');
+        background-size: cover;
+    }
+    100% {
+        background: url('../images/ss1.jpg');
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*#slider {
     padding-top: 20px;
     overflow: hidden;
+    width: 100vw;
 }
 
 #slider figure {
@@ -126,7 +167,7 @@ h2 {
     width: 250%;
     margin: 0;
     padding-left: 25%;
-    animation: 20s slider infinite;
+    animation: 25s slider infinite;
     justify-content: center;
 
 
@@ -165,11 +206,16 @@ h2 {
     100% {
         left: -200%;
     }
-}
+}*/
 
 .text {
     font-family: Arial, Helvetica, sans-serif;
-}
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
     
 
 /* heading - top 5 places to visit */
