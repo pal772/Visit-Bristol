@@ -1,10 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');;
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Open sans', Arial, sans-serif;
-} 
+}
+
+/* placed body here */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -39,7 +51,7 @@ header {
 ul {
     float: right;
     list-style-type: none;
-    margin-top: auto;
+    margin-top: 0%;
     margin-right: 20px;
 }
 
@@ -67,15 +79,15 @@ ul li a:hover {
     letter-spacing: 6px;
 
     width: 360px;
-    height: 5px;
+    height: 10px;
 
-    padding-bottom: 160px;
+    padding-bottom: 220px;
     padding-left: 10px;
 
 
     background-color: rgba(225, 225, 225, 0.7);
 
-    bottom: 40px;
+    bottom: 80px;
     left: 60px;
 
     position: absolute;
@@ -83,12 +95,11 @@ ul li a:hover {
 
 /* about Bristol */
 
-h3 {
+h3, span {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-family:'Open Sans', Arial, sans-serif;
 }
 
 p {
@@ -97,147 +108,101 @@ p {
     padding-right: 40px;
 }
 
-/* image slider */
+h2 {
+    text-align: center;
+    font-style: oblique;
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: center;
-    justify-content: center;
-    align-items: center;
 }
 
-.slider {
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
+/* image slider */
+
+#slider {
+    padding-top: 20px;
     overflow: hidden;
 }
 
-.slides {
-    width: 500%;
-    height: 500px;
-    display: flex;
+#slider figure {
+    position: relative;
+    width: 250%;
+    margin: 0;
+    padding-left: 25%;
+    animation: 20s slider infinite;
+    justify-content: center;
+
+
 }
 
-.slides input {
-    display: none;
-}
-
-.slide {
+#slider figure img {
+    float: left;
     width: 20%;
-    transition: 2s;
 }
 
-.slide img {
-    width: 800px;
-    height: 500px;
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -50%;
+    }
+    45% {
+        left: -50%;
+    }
+    50% {
+        left: -100%;
+    }
+    70% {
+        left: -100%;
+    }
+    75% {
+        left: -175%;
+    }
+    95% {
+        left: -175%;
+    }
+    100% {
+        left: -200%;
+    }
 }
 
-/*css for manual slide navigation */
-
-.navigation-manual {
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+.text {
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.manual-btn {
-     border: 2px soild #40D3DC;
-     padding: 5px;
-     border-radius: 10px;
-     cursor: pointer;
-     transition: 1s;
-}
-
-.manual-btn:not(:last-child) {
-    margin-right: 40px;
-}
-
-.manual-btn:hover {
-    background: #40D3DC;
-}
-
-#radio1:checked ~ .first {
-    margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-    margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-    margin-left: -40%;
-}
-
-
-#radio4:checked ~ .first {
-    margin-left: -60%;
-}
-
-/* css for automatic navigation */
-
-.navigation-auto {
-    position: absolute;
-    display: flex;
-    width: 800px;
-    justify-content: center;
-    margin-top: 460px;
-}
-
-.navigation-auto div {
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-}
-
-.navigation-aut0 div:not(:last-child) {
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: #40D3DC;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: #40D3DC;
-}
-
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: #40D3DC;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-    background: #40D3DC;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 /* heading - top 5 places to visit */
+
+
 /* 1. SS Great Britain */
 
+.section { 
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.section img { 
+      height: 250px;
+      width: 45%;
+       
+}
+
+.section h3 {
+    margin: 0;
+    color: greenyellow;
+    padding-top: 5px;
+}
+
+.section p {
+    color: #c0bdbd;
+    margin-right: 10px;
+}
 
 
 /* 2. Clifton Suspension Bridge */
@@ -254,7 +219,7 @@ body {
 
 .section img { 
       height: 250px;
-      width: 40%;
+      width: 45%;
        
 }
 
@@ -267,6 +232,10 @@ body {
     color: #c0bdbd;
     margin-right: 15px;
 }
+
+
+
+
 /* 3. Bristol Harbour */
 
 .section { 
