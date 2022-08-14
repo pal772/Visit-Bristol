@@ -6,7 +6,6 @@
     font-family: 'Open sans', Arial, sans-serif;
 }
 
-/* placed body here */
 
 body {
     margin: 0;
@@ -51,7 +50,7 @@ header {
 ul {
     float: right;
     list-style-type: none;
-    margin-top: 0%;
+    margin-top: 0;
     margin-right: 20px;
 }
 
@@ -116,12 +115,12 @@ h2 {
 
 /* image slider */
 
-.slider {
+.slider1 {
     width: 900px;
     height: 480px;
     background: url('../images/ss1.jpg');
-    margin: 100px auto;
-    animation: slide 30s ease;
+    margin: 0 auto;
+    animation: slide 20s ease;
     max-width: 100%;
     background-size: cover;
 }
@@ -144,70 +143,48 @@ h2 {
         background-size: cover;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*#slider {
+    
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     padding-top: 20px;
-    overflow: hidden;
-    width: 100vw;
-}
-
-#slider figure {
-    position: relative;
-    width: 250%;
-    margin: 0;
-    padding-left: 25%;
-    animation: 25s slider infinite;
-    justify-content: center;
-
-
-}
-
-#slider figure img {
-    float: left;
-    width: 20%;
-}
-
-@keyframes slider {
-    0% {
-        left: 0;
+    padding-left: 40px;
+    padding-right: 40px;
     }
-    20% {
-        left: 0;
-    }
+/* image slider end */
+    
+
+/* image slider */
+
+.slider2 {
+    width: 900px;
+    height: 480px;
+    background: url('../images/sb1.jpg');
+    margin: 0 auto;
+    animation: slide 20s ease;
+    max-width: 100%;
+    background-size: cover;
+}
+
+@keyframes slide {
     25% {
-        left: -50%;
-    }
-    45% {
-        left: -50%;
+        background: url('../images/sb2.jpg');
+        background-size: cover;
     }
     50% {
-        left: -100%;
-    }
-    70% {
-        left: -100%;
+        background: url('../images/sb3.jpg');
+        background-size: cover;
     }
     75% {
-        left: -175%;
-    }
-    95% {
-        left: -175%;
+        background: url('../images/sb4.jpg');
+        background-size: cover;
     }
     100% {
-        left: -200%;
+        background: url('../images/sb1.jpg');
+        background-size: cover;
     }
-}*/
-
+}
+    
 .text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -215,8 +192,140 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     }
-
+/* image slider end */
     
+
+/* image slider */
+
+.slider3 {
+    width: 900px;
+    height: 480px;
+    background: url('../images/bh1.jpg');
+    margin: 0 auto;
+    animation: slide 20s ease;
+    max-width: 100%;
+    background-size: cover;
+}
+
+@keyframes slide {
+    25% {
+        background: url('../images/bh2.jpg');
+        background-size: cover;
+    }
+    50% {
+        background: url('../images/bh3.jpg');
+        background-size: cover;
+    }
+    75% {
+        background: url('../images/bh4.jpg');
+        background-size: cover;
+    }
+    100% {
+        background: url('../images/bh1.jpg');
+        background-size: cover;
+    }
+}
+    
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+/* image slider end */
+
+
+/* image slider */
+
+.slider4 {
+    width: 900px;
+    height: 480px;
+    background: url('../images/ms1.jpg');
+    margin: 0 auto;
+    animation: slide 20s ease;
+    max-width: 100%;
+    background-size: cover;
+}
+
+@keyframes slide {
+    25% {
+        background: url('../images/ms2.jpg');
+        background-size: cover;
+    }
+    50% {
+        background: url('../images/ms3.jpg');
+        background-size: cover;
+    }
+    75% {
+        background: url('../images/ms4.jpg');
+        background-size: cover;
+    }
+    100% {
+        background: url('../images/ms1.jpg');
+        background-size: cover;
+    }
+}
+    
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+/* image slider end */
+
+/* image slider */
+
+.slider5 {
+    width: 900px;
+    height: 480px;
+    background: url('../images/aa1.jpg');
+    margin: 0 auto;
+    animation: slide 20s ease;
+    max-width: 100%;
+    background-size: cover;
+}
+
+@keyframes slide {
+    25% {
+        background: url('../images/aa2.jpg');
+        background-size: cover;
+    }
+    50% {
+        background: url('../images/aa3.jpg');
+        background-size: cover;
+    }
+    75% {
+        background: url('../images/aa4.jpg');
+        background-size: cover;
+    }
+    100% {
+        background: url('../images/aa1.jpg');
+        background-size: cover;
+    }
+}
+    
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+/* image slider end */
+
+
+
+
+
+
+
+
+
+
+
 
 /* heading - top 5 places to visit */
 
@@ -243,9 +352,10 @@ h2 {
     margin: 0;
     color: greenyellow;
     padding-top: 5px;
+
 }
 
-.section p {
+.section li {
     color: #c0bdbd;
     margin-right: 10px;
 }
