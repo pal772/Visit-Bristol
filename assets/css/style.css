@@ -1,42 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');;
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open sans', Arial, sans-serif;
+    border: none;
 }
 
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
     
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+/* heading and logo */
+
+h1, h2 {
+    font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* bristol image and cover text */
+
+#bristol-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
     color: #fff;
 }
 
-/* logo */
-
-#logo {
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 180%;
-}
-
-/* image and cover text */
-
-header {
+#bristol-image {
     background-image: url('../images/bristol.jpg');
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -44,6 +81,28 @@ header {
 }
 
 #cover-text {
+    font-size: 270%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(225, 225, 225, 0.6);
+
+    bottom: 50px;
+    left: 100px;
+
+    position: absolute;
+}
+
+
+
+/* #cover-text { 
     color: #fff;
 }
 
@@ -91,6 +150,17 @@ ul li a:hover {
 
     position: absolute;
 }
+
+*/
+
+
+
+
+
+
+
+
+
 
 /* about Bristol */
 
@@ -475,3 +545,30 @@ h2 {
     color: #c0bdbd;
     margin-right: 15px;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;  
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 220%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+
+
+
+
