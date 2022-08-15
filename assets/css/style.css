@@ -120,12 +120,12 @@ h2 {
     height: 480px;
     background: url('../images/ss1.jpg');
     margin: 0 auto;
-    animation: slide 20s ease;
+    animation: slide1 20s infinite;
     max-width: 100%;
     background-size: cover;
 }
 
-@keyframes slide {
+@keyframes slide1 {
     25% {
         background: url('../images/ss2.jpg');
         background-size: cover;
@@ -161,12 +161,12 @@ h2 {
     height: 480px;
     background: url('../images/sb1.jpg');
     margin: 0 auto;
-    animation: slide 20s ease;
+    animation: slide2 20s infinite;
     max-width: 100%;
     background-size: cover;
 }
 
-@keyframes slide {
+@keyframes slide2 {
     25% {
         background: url('../images/sb2.jpg');
         background-size: cover;
@@ -202,12 +202,12 @@ h2 {
     height: 480px;
     background: url('../images/bh1.jpg');
     margin: 0 auto;
-    animation: slide 20s ease;
+    animation: slide3 20s infinite;
     max-width: 100%;
     background-size: cover;
 }
 
-@keyframes slide {
+@keyframes slide3 {
     25% {
         background: url('../images/bh2.jpg');
         background-size: cover;
@@ -243,12 +243,12 @@ h2 {
     height: 480px;
     background: url('../images/ms1.jpg');
     margin: 0 auto;
-    animation: slide 20s ease;
+    animation: slide4 20s infinite;
     max-width: 100%;
     background-size: cover;
 }
 
-@keyframes slide {
+@keyframes slide4 {
     25% {
         background: url('../images/ms2.jpg');
         background-size: cover;
@@ -283,12 +283,12 @@ h2 {
     height: 480px;
     background: url('../images/aa1.jpg');
     margin: 0 auto;
-    animation: slide 20s ease;
+    animation: slide5 20s infinite;
     max-width: 100%;
     background-size: cover;
 }
 
-@keyframes slide {
+@keyframes slide5 {
     25% {
         background: url('../images/aa2.jpg');
         background-size: cover;
