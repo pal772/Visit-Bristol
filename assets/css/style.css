@@ -100,81 +100,35 @@ h1, h2 {
     position: absolute;
 }
 
-
-
-/* #cover-text { 
-    color: #fff;
-}
-
-ul {
-    float: right;
-    list-style-type: none;
-    margin-top: 0;
-    margin-right: 20px;
-}
-
-ul li {
-    display: inline-block;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid #fff;
-    transition: 0.65s ease;
-}
-
-ul li a:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-#cover-text {
-    font-size: 250%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-
-    width: 360px;
-    height: 10px;
-
-    padding-bottom: 220px;
-    padding-left: 10px;
-
-
-    background-color: rgba(225, 225, 225, 0.7);
-
-    bottom: 80px;
-    left: 60px;
-
-    position: absolute;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-/* about Bristol */
+/* About Bristol */
 
 h3, span {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     font-family:'Open Sans', Arial, sans-serif;
+    padding-top: 20px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+
 }
 
-p {
+h4, span {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+p, .text {
     font-size: 20px;
     padding-left: 40px;
     padding-right: 40px;
+
+}
+
+.text {
+    padding-top: 30px;
 }
 
 h2 {
@@ -195,6 +149,15 @@ h2 {
     background-size: cover;
 }
 
+/*.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 40px;
+    }
+    */
+
 @keyframes slide1 {
     25% {
         background: url('../images/ss2.jpg');
@@ -214,13 +177,6 @@ h2 {
     }
 }
     
-.text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    }
 /* image slider end */
     
 
@@ -255,13 +211,6 @@ h2 {
     }
 }
     
-.text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    }
 /* image slider end */
     
 
@@ -296,13 +245,6 @@ h2 {
     }
 }
     
-.text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    }
 /* image slider end */
 
 
@@ -337,13 +279,6 @@ h2 {
     }
 }
     
-.text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    }
 /* image slider end */
 
 /* image slider */
@@ -377,13 +312,6 @@ h2 {
     }
 }
     
-.text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    }
 /* image slider end */
 
 
