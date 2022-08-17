@@ -31,6 +31,7 @@ h4 {
     color: #3a3a3a;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #logo {
@@ -116,13 +117,13 @@ h4 {
 /* About Bristol title and text */
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Open Sans', Arial, sans-serif;
-    padding-top: 30px;
+    padding-top: 20px;
     text-decoration: underline;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 
 }
 
@@ -144,7 +145,7 @@ h2 {
 
 }
 
-/* image slider for ss great britain */
+/* image slider */
 
 .slider1 {
     width: 900px;
@@ -195,10 +196,10 @@ h5 {
     }
 }
 
-/* image slider end for ss great britain*/
+/* image slider end */
 
 
-/* image slider for clifton suspension bridge */
+/* image slider */
 
 .slider2 {
     width: 900px;
@@ -232,10 +233,10 @@ h5 {
     }
 }
 
-/* image slider end clifton suspension bridge*/
+/* image slider end */
 
 
-/* image slider for bristol harbour */
+/* image slider */
 
 .slider3 {
     width: 900px;
@@ -269,10 +270,10 @@ h5 {
     }
 }
 
-/* image slider end bristol harbour*/
+/* image slider end */
 
 
-/* image slider for m shed */
+/* image slider */
 
 .slider4 {
     width: 900px;
@@ -306,9 +307,9 @@ h5 {
     }
 }
 
-/* image slider end m shed*/
+/* image slider end */
 
-/* image slider for arnolfini */
+/* image slider */
 
 .slider5 {
     width: 900px;
@@ -342,9 +343,143 @@ h5 {
     }
 }
 
-/* image slider end arnolfini */
+/* image slider end */
 
 
+/* 1. SS Great Britain */
+
+.box {
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.box img {
+    height: 250px;
+    width: 45%;
+
+}
+
+.box h3 {
+    margin: 0;
+    color: greenyellow;
+    padding-top: 5px;
+
+}
+
+.box li {
+    color: #c0bdbd;
+    margin-right: 10px;
+}
+
+
+/* 2. Clifton Suspension Bridge */
+
+.box {
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.box img {
+    height: 250px;
+    width: 45%;
+
+}
+
+.box h3 {
+    margin: 0;
+    color: greenyellow;
+}
+
+.box p {
+    color: #c0bdbd;
+    margin-right: 15px;
+}
+
+
+
+
+/* 3. Bristol Harbour */
+
+.box {
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.box img {
+    height: 250px;
+    width: 40%;
+
+}
+
+.box h3 {
+    margin: 0;
+    color: greenyellow;
+}
+
+.box p {
+    color: #c0bdbd;
+    margin-right: 15px;
+}
+
+/* 4. M.Shed */
+
+.box {
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.box img {
+    height: 250px;
+    width: 40%;
+
+}
+
+.box h3 {
+    margin: 0;
+    color: greenyellow;
+}
+
+.box p {
+    color: #c0bdbd;
+    margin-right: 15px;
+}
+
+/* 5. Armoifini Arts */
+
+.box {
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.box img {
+    height: 250px;
+    width: 40%;
+}
 
 /* footer */
 
