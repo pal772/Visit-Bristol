@@ -15,11 +15,22 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #3a3a3a;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+    text-align: center;
+    padding-top: 30px;
 }
 
 #logo {
@@ -34,7 +45,9 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -66,7 +79,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -99,27 +113,21 @@ h1, h2 {
     position: absolute;
 }
 
-/* About Bristol */
+/* About Bristol title and text */
 
-h3, span {
-    font-size: 20px;
+h3 {
+    font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    font-family:'Open Sans', Arial, sans-serif;
-    padding-top: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding-top: 30px;
     text-decoration: underline;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
 }
 
-h4, span {
-    font-size: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-}
-
-p, .text {
+p,
+.text {
     font-size: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -136,7 +144,7 @@ h2 {
 
 }
 
-/* image slider */
+/* image slider for ss great britain */
 
 .slider1 {
     width: 900px;
@@ -158,29 +166,39 @@ h2 {
     text-decoration: underline;
 }
 
+h5 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
 @keyframes slide1 {
     25% {
         background: url('../images/ss2.jpg');
         background-size: cover;
     }
+
     50% {
         background: url('../images/ss3.jpg');
         background-size: cover;
     }
+
     75% {
         background: url('../images/ss4.jpg');
         background-size: cover;
     }
+
     100% {
         background: url('../images/ss1.jpg');
         background-size: cover;
     }
 }
-    
-/* image slider end */
-    
 
-/* image slider */
+/* image slider end for ss great britain*/
+
+
+/* image slider for clifton suspension bridge */
 
 .slider2 {
     width: 900px;
@@ -197,24 +215,27 @@ h2 {
         background: url('../images/sb2.jpg');
         background-size: cover;
     }
+
     50% {
         background: url('../images/sb3.jpg');
         background-size: cover;
     }
+
     75% {
         background: url('../images/sb4.jpg');
         background-size: cover;
     }
+
     100% {
         background: url('../images/sb1.jpg');
         background-size: cover;
     }
 }
-    
-/* image slider end */
-    
 
-/* image slider */
+/* image slider end clifton suspension bridge*/
+
+
+/* image slider for bristol harbour */
 
 .slider3 {
     width: 900px;
@@ -231,24 +252,27 @@ h2 {
         background: url('../images/bh2.jpg');
         background-size: cover;
     }
+
     50% {
         background: url('../images/bh3.jpg');
         background-size: cover;
     }
+
     75% {
         background: url('../images/bh4.jpg');
         background-size: cover;
     }
+
     100% {
         background: url('../images/bh1.jpg');
         background-size: cover;
     }
 }
-    
-/* image slider end */
+
+/* image slider end bristol harbour*/
 
 
-/* image slider */
+/* image slider for m shed */
 
 .slider4 {
     width: 900px;
@@ -265,23 +289,26 @@ h2 {
         background: url('../images/ms2.jpg');
         background-size: cover;
     }
+
     50% {
         background: url('../images/ms3.jpg');
         background-size: cover;
     }
+
     75% {
         background: url('../images/ms4.jpg');
         background-size: cover;
     }
+
     100% {
         background: url('../images/ms1.jpg');
         background-size: cover;
     }
 }
-    
-/* image slider end */
 
-/* image slider */
+/* image slider end m shed*/
+
+/* image slider for arnolfini */
 
 .slider5 {
     width: 900px;
@@ -298,181 +325,26 @@ h2 {
         background: url('../images/aa2.jpg');
         background-size: cover;
     }
+
     50% {
         background: url('../images/aa3.jpg');
         background-size: cover;
     }
+
     75% {
         background: url('../images/aa4.jpg');
         background-size: cover;
     }
+
     100% {
         background: url('../images/aa1.jpg');
         background-size: cover;
     }
 }
-    
-/* image slider end */
+
+/* image slider end arnolfini */
 
 
-
-
-
-
-
-
-
-
-
-
-/* heading - top 5 places to visit */
-
-
-/* 1. SS Great Britain */
-
-.section { 
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
-}
-
-.section img { 
-      height: 250px;
-      width: 45%;
-       
-}
-
-.section h3 {
-    margin: 0;
-    color: greenyellow;
-    padding-top: 5px;
-
-}
-
-.section li {
-    color: #c0bdbd;
-    margin-right: 10px;
-}
-
-
-/* 2. Clifton Suspension Bridge */
-
-.section { 
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
-}
-
-.section img { 
-      height: 250px;
-      width: 45%;
-       
-}
-
-.section h3 {
-    margin: 0;
-    color: greenyellow;
-}
-
-.section p {
-    color: #c0bdbd;
-    margin-right: 15px;
-}
-
-
-
-
-/* 3. Bristol Harbour */
-
-.section { 
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
-}
-
-.section img { 
-      height: 250px;
-      width: 40%;
-       
-}
-
-.section h3 {
-    margin: 0;
-    color: greenyellow;
-}
-
-.section p {
-    color: #c0bdbd;
-    margin-right: 15px;
-}
-
-/* 4. M.Shed */
-
-.section { 
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
-}
-
-.section img { 
-      height: 250px;
-      width: 40%;
-       
-}
-
-.section h3 {
-    margin: 0;
-    color: greenyellow;
-}
-
-.section p {
-    color: #c0bdbd;
-    margin-right: 15px;
-}
-
-/* 5. Armoifini Arts */
-
-.section { 
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
-}
-
-.section img { 
-      height: 250px;
-      width: 40%;
-       
-}
-
-.section h3 {
-    margin: 0;
-    color: greenyellow;
-}
-
-.section p {
-    color: #c0bdbd;
-    margin-right: 15px;
-}
 
 /* footer */
 
@@ -481,10 +353,10 @@ footer {
 }
 
 .social-networks {
-    text-align: center;  
+    text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -502,7 +374,7 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -528,6 +400,7 @@ footer {
     #cover-text {
         left: 0;
     }
+
     #photos {
         column-count: 3;
     }
