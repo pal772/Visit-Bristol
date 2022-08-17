@@ -148,14 +148,15 @@ h2 {
     background-size: cover;
 }
 
-/*.text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 40px;
-    }
-    */
+.link a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 25px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
 
 @keyframes slide1 {
     25% {
