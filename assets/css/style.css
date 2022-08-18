@@ -345,140 +345,60 @@ h5 {
 
 /* image slider end arnolfini */
 
+/* flex-box - holding container */
 
-/* 1. SS Great Britain */
-
-.box {
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+.holdingcontainer {
     width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
-}
-
-.box img {
-    height: 250px;
-    width: 45%;
-
-}
-
-.box h3 {
-    margin: 0;
-    color: greenyellow;
-    padding-top: 5px;
-
-}
-
-.box li {
-    color: #c0bdbd;
-    margin-right: 10px;
-}
-
-
-/* 2. Clifton Suspension Bridge */
-
-.box {
-    background-color: #252121;
     display: flex;
-    justify-content: space-between;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.internalcontainer1 {
+    flex: 1;
+    background: #fff;
     padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    border-style: groove;
 }
 
-.box img {
-    height: 250px;
-    width: 45%;
-
-}
-
-.box h3 {
-    margin: 0;
-    color: greenyellow;
-}
-
-.box p {
-    color: #c0bdbd;
-    margin-right: 15px;
-}
-
-
-
-
-/* 3. Bristol Harbour */
-
-.box {
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
+.internalcontainer2 {
+    flex: 1;
+    background: #fff;
     padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    border-style: groove;
 }
 
-.box img {
-    height: 250px;
-    width: 40%;
-
-}
-
-.box h3 {
-    margin: 0;
-    color: greenyellow;
-}
-
-.box p {
-    color: #c0bdbd;
-    margin-right: 15px;
-}
-
-/* 4. M.Shed */
-
-.box {
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
+.internalcontainer3 {
+    flex: 1;
+    background: #fff;
     padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    border-style: groove;
 }
 
-.box img {
-    height: 250px;
-    width: 40%;
-
-}
-
-.box h3 {
-    margin: 0;
-    color: greenyellow;
-}
-
-.box p {
-    color: #c0bdbd;
-    margin-right: 15px;
-}
-
-/* 5. Armoifini Arts */
-
-.box {
-    background-color: #252121;
-    display: flex;
-    justify-content: space-between;
+.internalcontainer4 {
+    flex: 1;
+    background: #fff;
     padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    border-style: groove;
 }
 
-.box img {
-    height: 250px;
-    width: 40%;
+.internalcontainer5 {
+    flex: 1;
+    background: #fff;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    border-style: groove;
 }
 
 /* footer */
@@ -545,5 +465,9 @@ footer {
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
+    }
+
+    .holdingcontainer {
+        flex-direction: column-reverse;
     }
 }
