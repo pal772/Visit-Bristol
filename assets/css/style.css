@@ -164,8 +164,8 @@ h2 {
 }
 
 .link a {
-    text-decoration: none;
-    color: #3a3a3a;
+    text-decoration: underline;
+    color: blue;
     font-size: 25px;
 }
 
@@ -179,6 +179,11 @@ h5 {
     padding-right: 20px;
     padding-bottom: 10px;
 }
+
+.bold {
+    font-weight: bold;
+}
+
 
 @keyframes slide1 {
     25% {
