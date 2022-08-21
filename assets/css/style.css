@@ -32,7 +32,6 @@ h4 {
     color: #3a3a3a;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 #logo {
@@ -487,23 +486,30 @@ footer {
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
 
+    #logo {
+        font-size: 250%;
+    }
+
+
     #menu {
         clear: left;
-        float: left;
+        float: right;
         margin-left: 10px;
         margin-bottom: 10px;
         line-height: 25px;
+        letter-spacing: 2px;
     }
 
+
     h4 {
-        font-size: 30px;
-        letter-spacing: 2px;
+        font-size: 20px;
+        letter-spacing: 0;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 0;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 10px;
         padding-bottom: 10px;
 
@@ -522,6 +528,11 @@ footer {
         padding-right: 10px;
     }
 
+    .link a {
+        font-size: 20px;
+    }
+
+
     #photos {
         column-count: 2;
     }
@@ -529,6 +540,17 @@ footer {
     .holdingcontainer {
         flex-direction: column-reverse;
     }
+
+    .internalcontainer1,
+    .internalcontainer2,
+    .internalcontainer3,
+    .internalcontainer4,
+    .internalcontainer5 {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+
 }
 
 /* For small screen sizes 400px and down */
@@ -537,11 +559,11 @@ footer {
 
     #logo {
         font-size: 250%;
-        margin-left: 10px;
+        text-align: center;
     }
 
     #menu {
-        margin-left: 10px;
+        text-align: center;
         letter-spacing: 2px;
     }
 
@@ -556,15 +578,28 @@ footer {
     #cover-text {
         font-size: 270%;
         letter-spacing: 4px;
-    
+
         width: 400px;
         height: 200px;
-    
+
         padding-top: 30px;
         padding-left: 10px;
-    
+
         bottom: 40px;
         left: 0;
+    }
+
+    .link a {
+        font-size: 15px;
+    }
+
+    .internalcontainer1,
+    .internalcontainer2,
+    .internalcontainer3,
+    .internalcontainer4,
+    .internalcontainer5 {
+        padding: 10px;
+        font-size: 15px;
     }
 
 }
