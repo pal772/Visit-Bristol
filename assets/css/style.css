@@ -461,6 +461,7 @@ footer {
 /* For medium screen sizes from  950px wide and down */
 @media screen and (max-width: 950px) {
 
+
     #menu {
         clear: left;
         float: left;
@@ -481,12 +482,33 @@ footer {
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
 
-    h3 {
-        font-size: 20px;
-        text-align: center;
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+
+    h4 {
+        font-size: 30px;
+        letter-spacing: 2px;
         padding-top: 10px;
         padding-bottom: 10px;
-    
+    }
+
+    h3 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .info {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .text {
@@ -502,4 +524,42 @@ footer {
     .holdingcontainer {
         flex-direction: column-reverse;
     }
+}
+
+/* For small screen sizes 400px and down */
+@media screen and (max-width: 400px) {
+
+
+    #logo {
+        font-size: 250%;
+        margin-left: 10px;
+    }
+
+    #menu {
+        margin-left: 10px;
+        letter-spacing: 2px;
+    }
+
+
+    h2 {
+        font-size: 60px;
+        margin-right: 35px;
+        letter-spacing: 0;
+        padding-top: 10px;
+    }
+
+    #cover-text {
+        font-size: 270%;
+        letter-spacing: 4px;
+    
+        width: 400px;
+        height: 200px;
+    
+        padding-top: 30px;
+        padding-left: 10px;
+    
+        bottom: 40px;
+        left: 0;
+    }
+
 }
