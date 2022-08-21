@@ -46,6 +46,13 @@ h4 {
     margin-left: 30px;
 }
 
+.highlight {
+    color: #3a3a3a;
+    font-size: 25px;
+    padding-top: 80px;
+
+}
+
 /* navigation links*/
 
 #menu {
@@ -427,6 +434,21 @@ h5 {
     border-style: groove;
 }
 
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 2px;
+}
+
+#photos>img {
+    width: 100%;
+}
+
+
+
 /* footer */
 
 footer {
@@ -448,16 +470,6 @@ footer {
     color: #3a3a3a;
 }
 
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
-
-#photos>img {
-    width: 100%;
-}
 
 
 /* Media queries */
@@ -496,14 +508,27 @@ footer {
         font-size: 250%;
     }
 
-
     #menu {
         clear: left;
         float: right;
-        margin-left: 10px;
         margin-bottom: 10px;
-        line-height: 25px;
+        margin-top: 10px;
+        line-height: 15px;
         letter-spacing: 2px;
+    }
+
+    #cover-text {
+        font-size: 270%;
+        letter-spacing: 4px;
+
+        width: 400px;
+        height: 200px;
+
+        padding-top: 30px;
+        padding-left: 10px;
+
+        bottom: 40px;
+        left: 0;
     }
 
 
@@ -520,6 +545,7 @@ footer {
         padding-bottom: 10px;
 
     }
+
 
     .info {
         font-size: 15px;
@@ -569,8 +595,8 @@ footer {
     }
 
     #menu {
-        text-align: center;
-        letter-spacing: 2px;
+        margin-right: 12px;
+        letter-spacing: 0;
     }
 
     h2 {
@@ -588,7 +614,7 @@ footer {
         height: 200px;
 
         padding-top: 30px;
-        padding-left: 10px;
+        padding-left: 20px;
 
         bottom: 40px;
         left: 0;
@@ -618,9 +644,12 @@ footer {
     }
 
     #menu {
+        font-size: 15px;
         text-align: center;
         letter-spacing: 0;
     }
+
+
 
     h2 {
         font-size: 50px;
@@ -646,5 +675,22 @@ footer {
     .link a {
         font-size: 15px;
     }
+
+    .internalcontainer1,
+    .internalcontainer2,
+    .internalcontainer3,
+    .internalcontainer4,
+    .internalcontainer5 {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .restaurant {
+        margin: 0;
+        letter-spacing: 2px;
+        padding-bottom: 20px;
+    }
+
+
 
 }
