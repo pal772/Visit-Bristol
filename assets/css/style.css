@@ -506,6 +506,7 @@ footer {
 
     #logo {
         font-size: 250%;
+        margin-left: 15px;
     }
 
     #menu {
@@ -525,17 +526,17 @@ footer {
         height: 200px;
 
         padding-top: 30px;
-        padding-left: 10px;
+        padding-left: 20px;
 
-        bottom: 40px;
-        left: 0;
+        bottom: 30px;
+        left: 30px;
     }
 
 
     h4 {
         font-size: 20px;
         letter-spacing: 0;
-        padding-top: 10px;
+        padding-top: 20px;
         padding-bottom: 0;
     }
 
@@ -595,7 +596,7 @@ footer {
     }
 
     #menu {
-        margin-right: 12px;
+        margin-right: 45px;
         letter-spacing: 0;
     }
 
@@ -614,7 +615,7 @@ footer {
         height: 200px;
 
         padding-top: 30px;
-        padding-left: 20px;
+        padding-left: 30px;
 
         bottom: 40px;
         left: 0;
@@ -666,8 +667,6 @@ footer {
         padding-bottom: 10px;
     }
 
-
-
     h2 {
         font-size: 50px;
         margin-right: 80px;
@@ -682,10 +681,10 @@ footer {
         width: 380px;
         height: 200px;
 
-        padding-top: 20px;
+        padding-top: 10px;
         padding-left: 10px;
 
-        bottom: 20px;
+        bottom: 60px;
         left: 0;
     }
 
