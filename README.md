@@ -34,8 +34,8 @@ This website is created as my very first milestone project for Code Institute.
 
 ## Technologies Used
 
-* <a href="https://balsamiq.com/"><img src="readme-images/balsamiq.png" alt="Balsamiq logo" width="10%"></a>
- I used Balsamiq first, to make a rough sketch of my site in mobile, tablet and desktop form.
+* <a href="https://balsamiq.com/"><img src="assets/readme-images/balsamiq.jpg" alt="Balsamiq logo" width="10%"></a>
+ I used Balsamiq wireframe first, to make a rough sketch of my site in mobile, tablet and desktop form.
 <br>
 
  * <a href="https://en.wikipedia.org/wiki/HTML"><img src="readme-images/html.png" alt="HTML logo" width="10%"></a> 
