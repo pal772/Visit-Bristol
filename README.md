@@ -70,15 +70,16 @@ This website is created as my very first milestone project for Code Institute.
     - The current page you are on is underlined in the navigation bar, helping the user understand which part of the website they're on.
     - You can access each page on the navigation bar on any page, Places to Eat and Gallery. 
 
-    <img src="readme-images/nav-bar.png" alt="Screenshot of nav bar" width="50%">
+    <img src="assets/readme-images/navbar.png" alt="Screenshot of nav bar" width="50%">
     
     
 - __Main Image__
     - As a user, i want to find out what the website is about as soon the home page popped up.
     - The main image is a beautiful arial view of Bristol, as the sun sets.
     - It includes two headings to describe to name and summary of what the website entails.
+    <br>
 
-    <img src="readme-images/hero-image.png" alt="Screenshot of hero image" width="50%">   
+    <img src="assets/readme-images/bristol-image.png" alt="Screenshot of bristol image" width="50%">   
 
 
 
