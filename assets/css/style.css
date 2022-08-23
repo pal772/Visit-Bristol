@@ -579,7 +579,7 @@ footer {
     .internalcontainer4,
     .internalcontainer5 {
         padding: 10px;
-        font-size: 20px;
+        font-size: 10px;
     }
 
 
@@ -591,7 +591,7 @@ footer {
 
     #logo {
         font-size: 240%;
-        margin-left: 55px;
+        margin-left: 50px;
     }
 
     #menu {
@@ -637,8 +637,19 @@ footer {
         
     }
 
-
-
+    .holdingcontainer {
+        width: 40%;
+        display: flex;
+        margin: 0;
+    }
+    
+    .restaurant {
+    
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    
+    
     .internalcontainer1,
     .internalcontainer2,
     .internalcontainer3,
@@ -646,11 +657,10 @@ footer {
     .internalcontainer5 {
         padding: 10px;
         font-size: 15px;
-    }
-
+    } 
 }
 
-/* For small screen sizes 350px and down */
+/* For small screen sizes 350px and down 
 @media screen and (max-width: 320px) {
 
     #logo {
@@ -710,10 +720,11 @@ footer {
     .internalcontainer4,
     .internalcontainer5 {
         padding: 5px;
-        font-size: 15px;
+        font-size: 5px;
     }
 
     .restaurant {
+        font-size: 10px;
         margin: 0;
         letter-spacing: 2px;
         padding-bottom: 20px;
@@ -722,3 +733,4 @@ footer {
 
 
 }
+ */
