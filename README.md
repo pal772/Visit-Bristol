@@ -15,10 +15,9 @@ This website is created as my very first milestone project for Code Institute.
 # contents
 
 * [Technologies Used](#technologies-used)
-* [User Stories](#user-stories)
+* [User Experience](#user-experience)
 * [Features](#features)
     * [Existing Features](#existing-features)
-    * [Future Features](#future-features)
 * [Design](#design) 
     * [User Stories](#user-stories)
     * [Wireframes](#wireframes)
@@ -34,23 +33,58 @@ This website is created as my very first milestone project for Code Institute.
 
 ## Technologies Used
 
-* <a href="https://balsamiq.com/"><img src="assets/readme-images/balsamiq.jpg" alt="Balsamiq logo" width="10%"></a>
+* <a href="https://balsamiq.com/"><img src="assets/readme-images/balsamiq.jpg" alt="Balsamiq logo" width="20%"></a>
  I used Balsamiq wireframe first, to make a rough sketch of my site in mobile, tablet and desktop form.
 <br>
 
- * <a href="https://en.wikipedia.org/wiki/HTML"><img src="readme-images/html.png" alt="HTML logo" width="10%"></a> 
+ * <a href="https://en.wikipedia.org/wiki/HTML"><img src="assets/readme-images/html.png" alt="HTML logo" width="20%"></a> 
  HTML was used to construct the base of my website and structure.
  <br>
 
- * <a href="https://en.wikipedia.org/wiki/CSS"><img src="readme-images/css.png" alt="CSS logo" widthfirst="7.2%"></a> 
+ * <a href="https://en.wikipedia.org/wiki/CSS"><img src="assets/readme-images/css.png" alt="CSS logo" widthfirst="4%"></a> 
  CSS was used to style my website and make it responsive. CSS and HTML were the core technologies I used to create a 
  image slider and gallery page.
  <br>
 
- * <a href="https://fonts.google.com/"><img src="readme-images/google-fonts.png" alt="Google Fonts logo" width="10%"></a>
+ * <a href="https://fonts.google.com/"><img src="assets/readme-images/google-fonts.jpg" alt="Google Fonts logo" width="20%"></a>
  Used Google Fonts to style my website to make it look visually appealing.
 
  <hr>
+
+### User Experience
+
+- I want to find out what the website is about, as soon as I clicked on the home page.
+- Want to be able to navigate the website easily, without getting lost and having to scroll to find my place.
+- I want to find out what the city had to offer, without having to search too long.
+- To see a sneak peak of the images available without having to go to another page.
+- I want to be able to see information about images in the gallery.
+
+<hr>
+
+## Features
+
+### Existing Features
+- __Navigation Bar__
+    - As a user, I want to be able to navigate the website easily without getting lost and having to scroll to find my place.
+    - The fully responsive navigation bar is featured in the upper right hand side of the website on each page, including Home, Places to Eat and Gallery.
+    - The current page you are on is underlined in the navigation bar, helping the user understand which part of the website they're on.
+    - You can access each page on the navigation bar on any page, Places to Eat and Gallery. 
+
+    <img src="readme-images/nav-bar.png" alt="Screenshot of nav bar" width="50%">
+    
+    
+- __Main Image__
+    - As a user, i want to find out what the website is about as soon the home page popped up.
+    - The main image is a beautiful arial view of Bristol, as the sun sets.
+    - It includes two headings to describe to name and summary of what the website entails.
+
+    <img src="readme-images/hero-image.png" alt="Screenshot of hero image" width="50%">   
+
+
+
+
+
+
 
 
 
