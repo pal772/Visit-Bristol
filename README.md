@@ -76,12 +76,36 @@ This website is created as my very first milestone project for Code Institute.
 - __Main Image__
     - As a user, i want to find out what the website is about as soon the home page popped up.
     - The main image is a beautiful arial view of Bristol, as the sun sets.
-    - It includes two headings to describe to name and summary of what the website entails.
+    - Includes two headings to describe the name and summary of what the website entails.
     <br>
 
     <img src="assets/readme-images/bristol-image.png" alt="Screenshot of bristol image" width="50%">   
 
+ - __Information section__
 
+    - As a user, i wanted to find out what Bristol had to offer.
+    - The short summary expains the location and population of Bristol.
+    - It mentions, main tourists places to visit and on the next page suggesions on places to eat.
+    <br>
+
+    <img src="assets/readme-images/about-bristol.png" alt="Screenshot of about bristol" width="50%">  
+
+
+- __Top places to visit in Bristol__
+
+    - Sub-tite mentioning top places to visit in Bristol.
+
+- __Top places to visit with image slider__
+
+    - As a user, i wanted suggestions on the top places to Visit in Bristol.
+    - As you scrowl down the home page, there are 5 image sliders.
+    - Each image slider showcases a short gallery
+    - title and having a brief description.
+    - Below the description, there is a sub-tite - Contact Information.
+    - Each contact information, has a link to its main website, its location in Bristol and telephone number.
+    - This was created using just HTML and CSS.
+
+    <img src="assets/readme-images/imageslider.png" alt="Screenshot of one image slider" width="50%">  
 
 
 
