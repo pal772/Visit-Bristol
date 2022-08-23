@@ -582,6 +582,11 @@ footer {
         font-size: 10px;
     }
 
+    .link a {
+        font-size: 15px;
+    }
+
+
 
 }
 
@@ -590,38 +595,38 @@ footer {
 
 
     #logo {
-        font-size: 240%;
-        margin-left: 50px;
+        font-size: 50px;
+        margin-left: 0px;
     }
 
     #menu {
-        margin-right: 45px;
+        margin: 10px;
         letter-spacing: 0;
     }
 
     h2 {
-        font-size: 60px;
-        margin-right: 35px;
+        font-size: 55px;
+        margin-right: 15px;
         letter-spacing: 0;
         padding-top: 10px;
     }
 
     #cover-text {
         font-size: 270%;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
 
-        width: 400px;
-        height: 200px;
+        width: 325px;
+        height: 180px;
 
-        padding-top: 30px;
-        padding-left: 30px;
+        padding-top: 20px;
+        padding-left: 0px;
 
         bottom: 40px;
         left: 0;
     }
 
-    .link a {
-        font-size: 15px;
+    .link {
+        font-size: 10px;
     }
 
     .slider1,
@@ -634,103 +639,34 @@ footer {
         max-width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-        
+
     }
 
     .holdingcontainer {
-        width: 40%;
+        width: 30%;
         display: flex;
-        margin: 0;
+        margin: 0px;
     }
-    
+     
     .restaurant {
-    
-        letter-spacing: 2px;
-        padding-bottom: 10px;
+        font-size: 30px;
     }
-    
-    
+
     .internalcontainer1,
     .internalcontainer2,
     .internalcontainer3,
     .internalcontainer4,
     .internalcontainer5 {
-        padding: 10px;
-        font-size: 15px;
-    } 
-}
-
-/* For small screen sizes 350px and down 
-@media screen and (max-width: 320px) {
-
-    #logo {
-        font-size: 200%;
-        margin-left: 30px;
-    }
-
-    #menu {
-        font-size: 17px;
-        letter-spacing: 0px;
-        margin: 0px 5px 5px 10px;
-        padding-right: 0px;
-        padding-bottom: 10px;
-    }
-
-    h2 {
-        font-size: 50px;
-        margin-right: 80px;
-        letter-spacing: 0;
-        padding-top: 30px;
-    }
-
-    #cover-text {
-        font-size: 270%;
-        letter-spacing: 4px;
-
-        width: 380px;
-        height: 200px;
-
-        padding-top: 10px;
         padding-left: 10px;
-
-        bottom: 60px;
-        left: 0;
-    }
-
-    .link a {
         font-size: 15px;
-    }
-
-    .slider1,
-    .slider2,
-    .slider3,
-    .slider4,
-    .slider5 {
         width: 350px;
-        height: 300px;
-        max-width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
+        padding-right: 10px;
+        margin: auto;
+        
     }
 
-
-    .internalcontainer1,
-    .internalcontainer2,
-    .internalcontainer3,
-    .internalcontainer4,
-    .internalcontainer5 {
-        padding: 5px;
-        font-size: 5px;
+    .link {
+        font-size: 20px;
     }
-
-    .restaurant {
-        font-size: 10px;
-        margin: 0;
-        letter-spacing: 2px;
-        padding-bottom: 20px;
-    }
-
-
 
 }
- */
