@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 
 }
 
@@ -368,6 +369,10 @@ h5 {
 
 /* image slider end arnolfini */
 
+
+
+/* places to eat */
+
 /* flex-box - holding container */
 
 .holdingcontainer {
@@ -434,7 +439,37 @@ h5 {
     border-style: groove;
 }
 
-/* gallery */
+/* image gallery */
+
+* { 
+    box-sizing: border-box;
+}
+
+.contain {
+    width: 100%;
+    display: flex;
+    align-items: row;
+    margin: auto;  
+    column-count: 3;
+}
+ 
+.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+
+} 
+
+.gallery img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* gallery 
 
 #photos {
     clear: both;
@@ -447,7 +482,7 @@ h5 {
     width: 100%;
 }
 
-
+*/
 
 /* footer */
 
