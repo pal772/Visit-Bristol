@@ -456,7 +456,7 @@ h5 {
     margin: 5px;
     border: 1px solid black;
     float: left;
-    width: 495px;
+    width: 470px;
 
 } 
 
@@ -465,7 +465,7 @@ h5 {
 }
 
 .desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -518,7 +518,7 @@ footer {
 
 
 
-/* For medium screen sizes from  950px wide and down */
+/* For medium screen sizes from  950px wide and down 
 @media screen and (max-width: 950px) {
 
 
@@ -538,7 +538,7 @@ footer {
         column-count: 3;
     }
 
- /* image gallery  */
+ /* image gallery  
 
  .flex-contain {
     width: 100%;
@@ -550,7 +550,7 @@ footer {
     margin: 5px;
     border: 1px solid black;
     float: left;
-    width: 175px;
+    width: 450px;
 
 } 
 
@@ -565,8 +565,8 @@ footer {
 }
 
 
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
+/* For small screen sizes 750px and down */
+@media screen and (max-width: 750px) {
 
     #logo {
         font-size: 250%;
@@ -662,7 +662,7 @@ footer {
         margin: 5px;
         border: 1px solid black;
         float: left;
-        width: 150px;
+        width: 100px;
     
     } 
     
@@ -671,7 +671,7 @@ footer {
     }
     
     .desc {
-        padding: 5px;
+        padding: 0px;
         text-align: center;
     }
 }
@@ -682,7 +682,7 @@ footer {
 
     #logo {
         font-size: 40px;
-        margin-right: 20px;
+        margin-left: 20px;
     }
 
     #menu {
@@ -778,7 +778,7 @@ footer {
     }
     
     .desc {
-        padding: 5px;
+        padding: 0px;
         text-align: center;
     }
 
