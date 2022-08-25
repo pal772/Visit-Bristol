@@ -704,11 +704,11 @@ footer {
         width: 325px;
         height: 180px;
 
-        padding-top: 20px;
-        padding-left: 0px;
+        padding-top: 25px;
+        padding-left: 20px;
 
         bottom: 40px;
-        left: 0;
+        left: 25px;
     }
 
     .link {
