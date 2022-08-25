@@ -8,7 +8,6 @@
 
 }
 
-
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
@@ -44,7 +43,7 @@ h4 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .highlight {
@@ -370,10 +369,7 @@ h5 {
 /* image slider end arnolfini */
 
 
-
-/* places to eat */
-
-/* flex-box - holding container */
+/* places to eat - flex-box - holding container */
 
 .holdingcontainer {
     width: 60%;
@@ -441,26 +437,23 @@ h5 {
 
 /* image gallery */
 
-* { 
-    box-sizing: border-box;
-}
-
 
 .flex-contain {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
- 
+
 .gallery {
-    margin: 5px;
+    margin-bottom: 20px;
     border: 1px solid black;
     float: left;
-    width: 470px;
+    width: 420px;
+    margin-left: 50px;
 
-} 
+}
 
-.gallery img{
+.gallery img {
     width: 100%;
 }
 
@@ -469,23 +462,6 @@ h5 {
     text-align: center;
 }
 
-
-
-
-/* gallery 
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 2px;
-}
-
-#photos>img {
-    width: 100%;
-}
-
-*/
 
 /* footer */
 
@@ -516,56 +492,7 @@ footer {
 
 
 
-
-
-/* For medium screen sizes from  950px wide and down 
-@media screen and (max-width: 950px) {
-
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #photos {
-        column-count: 3;
-    }
-
- /* image gallery  
-
- .flex-contain {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
- 
-.gallery {
-    margin: 5px;
-    border: 1px solid black;
-    float: left;
-    width: 450px;
-
-} 
-
-.gallery img{
-    width: 100%;
-}
-
-.desc {
-    padding: 5px;
-    text-align: center;
-}
-}
-
-
-/* For small screen sizes 750px and down */
+/* For medium screen sizes 750px and down */
 @media screen and (max-width: 750px) {
 
     #logo {
@@ -595,7 +522,6 @@ footer {
         left: 30px;
     }
 
-
     h4 {
         font-size: 20px;
         letter-spacing: 0;
@@ -609,7 +535,6 @@ footer {
         padding-bottom: 10px;
 
     }
-
 
     .info {
         font-size: 15px;
@@ -626,11 +551,6 @@ footer {
 
     .link a {
         font-size: 20px;
-    }
-
-
-    #photos {
-        column-count: 2;
     }
 
     .holdingcontainer {
@@ -657,19 +577,19 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
-     
+
     .gallery {
         margin: 5px;
         border: 1px solid black;
         float: left;
         width: 100px;
-    
-    } 
-    
-    .gallery img{
+
+    }
+
+    .gallery img {
         width: 100%;
     }
-    
+
     .desc {
         padding: 0px;
         text-align: center;
@@ -735,7 +655,7 @@ footer {
         display: flex;
         margin: 0px;
     }
-     
+
     .restaurant {
         font-size: 30px;
     }
@@ -750,7 +670,7 @@ footer {
         width: 350px;
         padding-right: 10px;
         margin: auto;
-        
+
     }
 
     .link {
@@ -764,19 +684,19 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
-     
+
     .gallery {
         margin: 5px;
         border: 1px solid black;
         float: left;
         width: 175px;
-    
-    } 
-    
-    .gallery img{
+
+    }
+
+    .gallery img {
         width: 100%;
     }
-    
+
     .desc {
         padding: 0px;
         text-align: center;
