@@ -95,20 +95,37 @@ This website is created as my very first milestone project for Code Institute.
 
     - Sub-tite mentioning top places to visit in Bristol.
 
-- __Top places to visit with image slider__
+    <br>
+
+- __Top places to visit - image slider__
 
     - As a user, i wanted suggestions on the top places to Visit in Bristol.
     - As you scrowl down the home page, there are 5 image sliders.
     - Each image slider showcases a short gallery
-    - title and having a brief description.
-    - Below the description, there is a sub-tite - Contact Information.
-    - Each contact information, has a link to its main website, its location in Bristol and telephone number.
+    - Each one, with a title and a brief description.
+    - Below the description there is a sub-title, with Contact Information.
+    - Each contact information, has a link to it's main website, location and telephone number.
     - This was created using just HTML and CSS.
 
     <img src="assets/readme-images/imageslider.png" alt="Screenshot of one image slider" width="50%">  
+ 
+    <br>
 
+- __Places to eat - image__
 
+    - As a user, if i'm visiting Bristol, i would also like to know a great place to eat.
+    - As you click on the next page, there are 5 suggestions on where to eat.
+    - The name for the restaurant is displayed, with its image.
+    - Also each one has a description, of the type of food they serve.
+    - And finally there is a main link to each restaurant.
 
+    <img src="assets/readme-images/restimage.png" alt="Screenshot of one of the places to eat" width="50%">  
+
+    <br>
+
+- __Gallery page__
+
+    
 
 
 
