@@ -397,6 +397,8 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
+    background-image: 100%;
+    width: 100%;
      
 }
 
@@ -407,7 +409,9 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
-      
+    background-image: 100%;
+    width: 100%;
+       
 } 
     
 
@@ -418,7 +422,9 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
-
+    background-image: 100%;
+    width: 100%;
+     
 }
 
 .internalcontainer4 {
@@ -427,7 +433,10 @@ h5 {
     padding: 40px;
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
-    border-style: groove;
+    border-style: groove; background-image: 100%;
+    width: 100%;
+     
+
 }
 
 .internalcontainer5 {
@@ -437,6 +446,9 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
+    background-image: 100%;
+    width: 100%;
+     
 }
 
 /* image gallery */
