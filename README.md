@@ -134,7 +134,8 @@ This website is created as my very first milestone project for Code Institute.
 
 - __Social Media Links__  
     
-    - In the footer, I have included links to social medias.
+    - All 3 pages have the same footer.
+    - All 3 have included links to social medias.
 
      <img src="assets/readme-images/footer.png" alt="Screenshot of one of image gallery" width="50%">  
 
