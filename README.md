@@ -19,7 +19,6 @@ This website is created as my very first milestone project for Code Institute.
 * [Features](#features)
     * [Existing Features](#existing-features)
 * [Design](#design) 
-    * [User Stories](#user-stories)
     * [Wireframes](#wireframes)
     * [Images](#images)
 * [Testing](#testing)
@@ -139,18 +138,31 @@ This website is created as my very first milestone project for Code Institute.
 
      <img src="assets/readme-images/footer.png" alt="Screenshot of one of image gallery" width="50%">  
 
-    <hr>
-
 ## Design
 
-### Wireframes
+- __Wire frames__  
 
-     I used Balsamiq to construct my wireframes for this project. These are my initial rough ideas and don't necessarily reflect the finished website.
+    - I used Balsamiq to construct my wireframes for this project. Had a few initial rough ideas, but don't necessarily 
+      reflect the finished website.
 
- - __Desktop__
+- __Images__  
 
+     - All the images on the 5 image sliders and the Gallery, were taken by me, as i live near Bristol. And new where to go.
+     - The main image arial view of Bristol was taken from Yahoo Bristolimages.co.uk
+     - The restaurant images were taken from opentable.co.uk
 
+## Testing 
 
+- __Lighthouse__  
+
+     - When manual testing, i put it through Lighthouse. I noticed a few errors with my headings, wich needed to be arranged
+       correctly. Had help from my Mentor.
+     - Also i needed to make it responsive, as on the mobile device the images were too big.
+     - was also having problems wih my image slider. Had help on Slack.
+     - My Gallery was displaying all of my images in a row. Was advised to use flex-contain by fellow mentors on Slack
+       to sort that out.
+
+<img src="assets/readme-images/lighthouseindex.png" alt="Screenshot of one of lighthouse test" width="50%">  
 
 
 
