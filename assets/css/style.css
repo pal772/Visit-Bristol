@@ -389,7 +389,6 @@ h5 {
     padding-bottom: 20px;
 }
 
-
 .internalcontainer1 {
     flex: 1;
     background: #fff;
@@ -398,7 +397,6 @@ h5 {
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
     background-image: 100%;
-    width: 100%;
      
 }
 
@@ -409,8 +407,7 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
-    background-image: 100%;
-    width: 100%;
+    background-size: 50%;
        
 } 
     
@@ -422,8 +419,7 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
-    background-image: 100%;
-    width: 100%;
+
      
 }
 
@@ -434,8 +430,7 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove; 
-    background-image: 100%;
-    width: 100%;
+    
      
 
 }
@@ -447,8 +442,6 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
-    background-image: 100%;
-    width: 100%;
      
 }
 

@@ -111,7 +111,7 @@ This website is created as my very first milestone project for Code Institute.
  
     <br>
 
-- __Places to eat - image__
+- __Places To Eat - image__
 
     - As a user, if i'm visiting Bristol, i would also like to know a great place to eat.
     - As you click on the next page, there are 5 suggestions on where to eat.
@@ -119,13 +119,22 @@ This website is created as my very first milestone project for Code Institute.
     - Also each one has a description, of the type of food they serve.
     - And finally there is a main link to each restaurant.
 
-    <img src="assets/readme-images/restimage.png" alt="Screenshot of one of the places to eat" width="50%">  
+    <img src="assets/readme-images/restimage.png" alt="Screenshot of one of places to eat" width="50%">  
 
     <br>
 
-- __Gallery page__
-
+- __Gallery Page__
     
+    - As a user, also wanted to see what else Bristol had to offer.
+    - The last page is a image gallery of interting sites of Bristol.
+
+    <img src="assets/readme-images/imgallery.png" alt="Screenshot of one of image gallery" width="50%">  
+
+    <br>
+
+    - __Social Media Links__
+
+
 
 
 
