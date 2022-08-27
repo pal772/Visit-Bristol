@@ -162,7 +162,49 @@ This website is created as my very first milestone project for Code Institute.
      - My Gallery was displaying all of my images in a row. Was advised to use flex-contain by fellow mentors on Slack
        to sort that out.
 
-<img src="assets/readme-images/lighthouseindex.png" alt="Screenshot of one of lighthouse test" width="50%">  
+    <br>
+    
+     - Used Dimention: Responsive - 966.40px x 745.60px medium devices
+
+     <img src="assets/readme-images/lighthousemedium.png" alt="Screenshot of one of lighthouse test" width="50%"> 
+
+    <br>
+
+     - Used Dimention: Responsive - 375 x 658 mobile devices
+
+     <img src="assets/readme-images/lighthousemobile.png" alt="Screenshot of one of lighthouse test" width="50%">  
+
+    <br> 
+- __Final Result__  
+      
+    - The colors and fonts chosen are easy to read and accessible by running it through Lighthouse.
+
+    <img src="assets/readme-images/lighthouseindex.png" alt="Screenshot of one of lighthouse test" width="50%">  
+
+    <br>
+
+- __Validator Testing__ 
+
+     - Index Page 
+
+     <img src="assets/readme-images/nucheckerhome.png" alt="Screenshot of Nu HTML Checker, index" width="50%"> 
+
+     - Places to Eat page
+
+     <img src="assets/readme-images/nucheckerpte.png" alt="Screenshot of Nu HTML Checker, places to eat" width="50%"> 
+
+     - Gallery page
+
+     <img src="assets/readme-images/nucheckergal.png" alt="Screenshot of Nu HTML Checker, gallery" width="50%">  
+
+- __CSS__  
+     - Had errors before before my CSS passed. I had a <width=100%> on my HTML page (img src) on Places to Eat.
+       Sorted that out, by adding it onto my Media Queries. With help from Student Tutoring.
+
+    <img src="assets/readme-images/W3C1.png" alt="Screenshot of W3C CSS Validator result" width="50%">
+
+
+
 
 
 
