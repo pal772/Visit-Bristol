@@ -397,7 +397,7 @@ h5 {
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
     background-image: 100%;
-     
+
 }
 
 .internalcontainer2 {
@@ -408,9 +408,9 @@ h5 {
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
     background-size: 50%;
-       
-} 
-    
+
+}
+
 
 .internalcontainer3 {
     flex: 1;
@@ -420,7 +420,7 @@ h5 {
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
 
-     
+
 }
 
 .internalcontainer4 {
@@ -429,9 +429,9 @@ h5 {
     padding: 40px;
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
-    border-style: groove; 
-    
-     
+    border-style: groove;
+
+
 
 }
 
@@ -442,7 +442,7 @@ h5 {
     font-size: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
     border-style: groove;
-     
+
 }
 
 /* image gallery */
@@ -501,6 +501,25 @@ footer {
 
 /* For larger to medium screens sizes from 1200px wide and down */
 
+.rest1 {
+    width: 100%;
+}
+
+.rest2 {
+    width: 100%;
+}
+
+.rest3 {
+    width: 100%;
+}
+
+.rest4 {
+    width: 100%;
+}
+
+.rest5 {
+    width: 100%;
+}
 
 
 /* For medium screen sizes 750px and down */

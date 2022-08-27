@@ -139,7 +139,15 @@ This website is created as my very first milestone project for Code Institute.
 
      <img src="assets/readme-images/footer.png" alt="Screenshot of one of image gallery" width="50%">  
 
+    <hr>
 
+## Design
+
+### Wireframes
+
+     I used Balsamiq to construct my wireframes for this project. These are my initial rough ideas and don't necessarily reflect the finished website.
+
+ - __Desktop__
 
 
 
