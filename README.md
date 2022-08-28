@@ -8,8 +8,8 @@
 # Site Overview
 Visit Bristol is a website that shows the top places to vist and to eat in Bristol.
 It also explains abit about the city, in the About content.
-This site is aimed at tourists and also locals looking for top attractions to visit, or a great place 
-to eat.
+This site is aimed anyone looking to visit Bristol, and need some inspiration on places to visit, or a 
+great place to eat.
 This website is created as my very first milestone project for Code Institute.
 
 # contents
@@ -34,47 +34,49 @@ This website is created as my very first milestone project for Code Institute.
 ## Technologies Used
 
 * <a href="https://balsamiq.com/"><img src="assets/readme-images/balsamiq.jpg" alt="Balsamiq logo" width="20%"></a>
- I used Balsamiq wireframe first, to make a rough sketch of my site in mobile, tablet and desktop form.
+  I used Balsamiq wireframe first, to make a rough sketch of my site in mobile, tablet and desktop form.
 <br>
 
  * <a href="https://en.wikipedia.org/wiki/HTML"><img src="assets/readme-images/html.png" alt="HTML logo" width="20%"></a> 
- HTML was used to construct the base of my website and structure.
+   HTML was used to construct the base of my website and structure.
  <br>
 
  * <a href="https://en.wikipedia.org/wiki/CSS"><img src="assets/readme-images/css.png" alt="CSS logo" widthfirst="4%"></a> 
- CSS was used to style my website and make it responsive. CSS and HTML were the core technologies I used to create a 
- image slider and gallery page.
+   CSS was used to style my website and make it responsive. CSS and HTML were the core technologies I used to create a 
+   image slider and gallery page.
  <br>
 
  * <a href="https://fonts.google.com/"><img src="assets/readme-images/google-fonts.jpg" alt="Google Fonts logo" width="20%"></a>
- Used Google Fonts to style my website to make it look visually appealing.
+   Used Google Fonts to style my website to make it look visually appealing.
 
  <hr>
 
 ### User Experience
 
 - I want to find out what the website is about, as soon as I clicked on the home page.
-- Want to be able to navigate the website easily, without getting lost and having to scroll to find my place.
-- I want to find out what the city had to offer, without having to search too long.
-- To see a sneak peak of the images available without having to go to another page.
-- I want to be able to see information about images in the gallery.
+- I wanted to be able to navigate the website easily, without getting lost and having to scroll to find my place.
+- I also wanted to find out what the city had to offer, without having to search too long.
+- It's also great to have images available without having to go to another page.
+- I wanted to be able to see information about images in the gallery.
 
 <hr>
 
 ## Features
 
-### Existing Features
+### Existing FeaturesS
 - __Navigation Bar__
     - As a user, I want to be able to navigate the website easily without getting lost and having to scroll to find my place.
-    - The fully responsive navigation bar is featured in the upper right hand side of the website on each page, including Home, Places to Eat and Gallery.
-    - The current page you are on is underlined in the navigation bar, helping the user understand which part of the website they're on.
-    - You can access each page on the navigation bar on any page, Places to Eat and Gallery. 
+    - The fully responsive navigation bar is featured in the upper right hand side of the website on each page, including 
+      Home, Places to Eat and Gallery.
+    - The current page you are on is underlined in the navigation bar, helping the user understand which part of the 
+      website they're viewing.
+    - You can access each page on the navigation bar on any page, Home, Places to Eat and Gallery. 
 
     <img src="assets/readme-images/navbar.png" alt="Screenshot of nav bar" width="50%">
     
     
 - __Main Image__
-    - As a user, i want to find out what the website is about as soon the home page popped up.
+    - As soon as you click on the home page, the user automatically knows that the website is about.
     - The main image is a beautiful arial view of Bristol, as the sun sets.
     - Includes two headings to describe the name and summary of what the website entails.
     <br>
@@ -84,7 +86,7 @@ This website is created as my very first milestone project for Code Institute.
  - __Information section__
 
     - As a user, i wanted to find out what Bristol had to offer.
-    - The short summary expains the location and population of Bristol.
+    - The short summary, ABOUT BRISTOL expains the location, population of Bristol and brief insight into the city.
     - It mentions, main tourists places to visit and on the next page suggesions on places to eat.
     <br>
 
@@ -102,9 +104,9 @@ This website is created as my very first milestone project for Code Institute.
     - As a user, i wanted suggestions on the top places to Visit in Bristol.
     - As you scrowl down the home page, there are 5 image sliders.
     - Each image slider showcases a short gallery
-    - Each one, with a title and a brief description.
+    - Each one, with a title and a description.
     - Below the description there is a sub-title, with Contact Information.
-    - Each contact information, has a link to it's main website, location and telephone number.
+    - The contact information, has a link to it's main website, location and telephone number.
     - This was created using just HTML and CSS.
 
     <img src="assets/readme-images/imageslider.png" alt="Screenshot of one image slider" width="50%">  
@@ -125,8 +127,8 @@ This website is created as my very first milestone project for Code Institute.
 
 - __Gallery Page__
     
-    - As a user, also wanted to see what else Bristol had to offer.
-    - The last page is a image gallery of interting sites of Bristol.
+    - As you click on the gallery page, it displays a few sites of Bristol.
+    - Each image has a has a title.
 
     <img src="assets/readme-images/imgallery.png" alt="Screenshot of one of image gallery" width="50%">  
 
@@ -135,7 +137,7 @@ This website is created as my very first milestone project for Code Institute.
 - __Social Media Links__  
     
     - All 3 pages have the same footer.
-    - All 3 have included links to social medias.
+    - All 3 pages include links to social medias.
 
      <img src="assets/readme-images/footer.png" alt="Screenshot of one of image gallery" width="50%">  
 
@@ -148,7 +150,7 @@ This website is created as my very first milestone project for Code Institute.
 
 - __Images__  
 
-     - All the images on the 5 image sliders and the Gallery, were taken by me, as i live near Bristol. And new where to go.
+     - All the images on the 5 image sliders and the Gallery, were taken by me, as i live near Bristol. As i new where to go.
      - The main image arial view of Bristol was taken from Yahoo Bristolimages.co.uk
      - The restaurant images were taken from opentable.co.uk
 
@@ -156,10 +158,10 @@ This website is created as my very first milestone project for Code Institute.
 
 - __Lighthouse__  
 
-     - When manual testing, i put it through Lighthouse. I noticed a few errors with my headings, wich needed to be arranged
-       correctly. Had help from my Mentor.
-     - Also i needed to make it responsive, as on the mobile device the images were too big.
-     - was also having problems wih my image slider. Had help on Slack.
+     - When manual testing, i put it through Lighthouse. My mentor noticed a few errors with my headings, which i 
+       arranged correctly.
+     - Also i needed to make it responsive, on mobile devices the images were too big.
+     - Was also having problems wih my image slider, wasnt changing images, Had some advice on Slack.
      - My Gallery was displaying all of my images in a row. Was advised to use flex-contain by fellow mentors on Slack
        to sort that out.
 
