@@ -118,6 +118,7 @@ This website is created as my very first milestone project for Code Institute.
     - As a user, if i'm visiting Bristol, i would also like to know a great place to eat.
     - As you click on the next page, there are 5 suggestions on where to eat.
     - The name for the restaurant is displayed, with its image.
+    - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
     - Also each one has a description, of the type of food they serve.
     - And finally there is a main link to each restaurant.
 
@@ -129,6 +130,7 @@ This website is created as my very first milestone project for Code Institute.
     
     - As you click on the gallery page, it displays a few sites of Bristol.
     - Each image has a has a title.
+    - They were all taken by me.
 
     <img src="assets/readme-images/imgallery.png" alt="Screenshot of one of image gallery" width="50%">  
 
@@ -138,6 +140,8 @@ This website is created as my very first milestone project for Code Institute.
     
     - All 3 pages have the same footer.
     - All 3 pages include links to social medias.
+    - The icons used on the footer was taken from [font awesome](https://fontawesome.com/)
+
 
      <img src="assets/readme-images/footer.png" alt="Screenshot of one of image gallery" width="50%">  
 
@@ -151,8 +155,8 @@ This website is created as my very first milestone project for Code Institute.
 - __Images__  
 
      - All the images on the 5 image sliders and the Gallery, were taken by me, as i live near Bristol. As i new where to go.
-     - The main image arial view of Bristol was taken from Yahoo Bristolimages.co.uk
-     - The restaurant images were taken from opentable.co.uk
+     - The main image arial view of Bristol was taken from Yahoo Bristolimages.co.uk4
+     - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
 
 ## Testing 
 
@@ -210,16 +214,33 @@ This website is created as my very first milestone project for Code Institute.
 
    ## Deployment
 
-  Visit Bristol was deployed on Github pages. The process are as follows
+  Visit Bristol was deployed on Github pages. The process are as follows -
   :
   - Went to the project's repository and navigated to the 'Settings' tab in the far right.
   - I scrolled down to the 'Code and automation' section and clicked into the 'Pages' tab.
   - Under 'source', I used the drop down menu to select 'main' and then clicked save.
-  - I then received a message indicating the deployment had been successful.
+  - Then i  received a message indicating the deployment had been successful.
 
   The live link can be found below:
   
   [Live Website - Visit Bristol](https://pal772.github.io/Visit-Bristol/ "Live Website - Visit Bristol")
+
+## Credits
+
+<hr>
+
+## Content
+
+  - The fonts used on this webiste was used from [google fonts](https://fonts.google.com/)
+  - The main arial view image of Bristol was taken from Yahoo Bristolimages.co.uk
+  - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
+  - Rest of the images were taken by me.
+  - The instrctions on how to make an image slider were taken from [specific youtube tutorial](https://www.youtube.com/)
+  - The icons used on the footer was taken from [font awesome](https://fontawesome.com/)
+
+
+
+
 
 
 
