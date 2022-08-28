@@ -25,7 +25,8 @@ This website is created as my very first milestone project for Code Institute.
     * [Manual Testing](#manual-testing)
     * [Lighthouse Testing](#lighthouse-testing)
     * [Validator Testing](#validator-testing)
-    * [Bugs](#bugs)  
+    * [Bugs](#bugs) 
+    * [Deployment](#deployment)
 * [Credits](#credits)  
 
 <hr>
@@ -198,10 +199,26 @@ This website is created as my very first milestone project for Code Institute.
      <img src="assets/readme-images/nucheckergal.png" alt="Screenshot of Nu HTML Checker, gallery" width="50%">  
 
 - __CSS__  
-     - Had errors before before my CSS passed. I had a <width=100%> on my HTML page (img src) on Places to Eat.
+     - Had errors before before my CSS passed. Had a <width=100%> on my HTML page (img src) on Places to Eat.
        Sorted that out, by adding it onto my Media Queries. With help from Student Tutoring.
 
     <img src="assets/readme-images/W3C1.png" alt="Screenshot of W3C CSS Validator result" width="50%">
+
+<hr>
+
+   ## Deployment
+
+  Visit Bristol was deployed on Github pages. The process are as follows
+  :
+  - Went to the project's repository and navigated to the 'Settings' tab in the far right.
+  - I scrolled down to the 'Code and automation' section and clicked into the 'Pages' tab.
+  - Under 'source', I used the drop down menu to select 'main' and then clicked save.
+  - I then received a message indicating the deployment had been successful.
+
+  The live link can be found below:
+  
+  [Live Website - Visit Bristol](https://pal772.github.io/Visit-Bristol/ "Live Website - Visit Bristol")
+
 
 
 
