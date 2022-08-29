@@ -259,6 +259,7 @@ This website is created as my very first milestone project for Code Institute.
 
 ### Content
 
+  - The Main image design was similar to the Love running project on Code insitite.
   - The fonts used on this webiste was used from [google fonts](https://fonts.google.com/)
   - The main arial view image of Bristol was taken from 'Yahoo Bristolimages.co.uk'.
   - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
