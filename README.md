@@ -130,7 +130,7 @@ This website is created as my very first milestone project for Code Institute.
 
 - __Gallery Page__
     
-    - As you click on the gallery page, it displays a few sites of Bristol.
+    - As you click on the 'gallery page', it displays a few sites of Bristol.
     - Each image has a has a title.
     - They were all taken by me.
 
@@ -170,6 +170,7 @@ This website is created as my very first milestone project for Code Institute.
        As i live near Bristol, and new where to go.
      - The main image arial view of Bristol was taken from Yahoo Bristolimages.co.uk.
      - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
+     - The image gallery, i wanted to keep it simple and easy to use.
 
 <hr>
 
@@ -228,12 +229,13 @@ This website is created as my very first milestone project for Code Institute.
 
   - When i was manual testing on Lighthouse, my mentor noticed a few errors with my headings, which i 
     arranged correctly.
-  - When trying to make it responsive on Lightouse, on mobile devices the image slider were too big.
+  - When trying to make it responsive on Lighthouse, on mobile devices the image slider were too big.
     With help from my mentor, got sorted out. 
   - Also the image slider, wasnt changing images, had some advice on Slack.
   - My Gallery was displaying all of my images in a row. Was advised to use flex-contain by fellow mentors on Slack.
   - When passing it through the official - [jigsaw validator](https://jigsaw.w3.org/css-validator/), had a <width=100%> 
     on my HTML page (img src) Places to Eat.
+    <br>
     With help from Student Tutoring, got sorted by adding it onto Media Queries.
  
 <hr>   
@@ -258,7 +260,7 @@ This website is created as my very first milestone project for Code Institute.
 ### Content
 
   - The fonts used on this webiste was used from [google fonts](https://fonts.google.com/)
-  - The main arial view image of Bristol was taken from Yahoo Bristolimages.co.uk
+  - The main arial view image of Bristol was taken from 'Yahoo Bristolimages.co.uk'.
   - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
   - Rest of the images were taken by me.
   - The instrctions on how to make an image slider were taken from [specific youtube tutorial](https://www.youtube.com/)
