@@ -219,7 +219,7 @@ This website is created as my very first milestone project for Code Institute.
      <img src="assets/readme-images/nucheckergal.png" alt="Screenshot of Nu HTML Checker, gallery" width="50%">  
 
 - __CSS__  
-     - Errors all sorted, when passed it through the official[jigsaw validator](https://jigsaw.w3.org/css-validator/)
+     - Errors all sorted, when passed it through the official[ jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
     <img src="assets/readme-images/W3C1.png" alt="Screenshot of W3C CSS Validator result" width="50%">
 
@@ -233,7 +233,7 @@ This website is created as my very first milestone project for Code Institute.
     With help from my mentor, got sorted out. 
   - Also the image slider, wasnt changing images, had some advice on Slack.
   - My Gallery was displaying all of my images in a row. Was advised to use flex-contain by fellow mentors on Slack.
-  - When passing it through the official - [jigsaw validator](https://jigsaw.w3.org/css-validator/), had a <width=100%> 
+  - When passing it through the official [ jigsaw validator](https://jigsaw.w3.org/css-validator/), had a <width=100%> 
     on my HTML page (img src) Places to Eat.
     <br>
     With help from Student Tutoring, got sorted by adding it onto Media Queries.
@@ -258,13 +258,14 @@ This website is created as my very first milestone project for Code Institute.
 ## Credits
 
 ### Content
-
+  - The main image on readme was designed using[ am i responsive](https://ui.dev/amiresponsive)
   - The Main image design was similar to the Love running project on Code insitite.
   - The fonts used on this webiste was used from [google fonts](https://fonts.google.com/)
   - The main arial view image of Bristol was taken from 'Yahoo Bristolimages.co.uk'.
   - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
   - Rest of the images were taken by me.
   - The instrctions on how to make an image slider were taken from [specific youtube tutorial](https://www.youtube.com/)
+  - The instrctions on how i designed my gallery were taken from [specific youtube tutorial](https://www.youtube.com/)
   - The icons used on the footer was taken from [font awesome](https://fontawesome.com/)
 
 
