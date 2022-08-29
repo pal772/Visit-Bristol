@@ -7,9 +7,11 @@
 
 # Site Overview
 Visit Bristol is a website that shows the top places to vist and to eat in Bristol.
-It also explains abit about the city, in the About content.
+It also has some information about the city, in the About content.
+<br>
 This site is aimed anyone looking to visit Bristol, and need some inspiration on places to visit, or a 
 great place to eat.
+<br>
 This website is created as my very first milestone project for Code Institute.
 
 # contents
@@ -42,7 +44,7 @@ This website is created as my very first milestone project for Code Institute.
  <br>
 
  * <a href="https://en.wikipedia.org/wiki/CSS"><img src="assets/readme-images/css.png" alt="CSS logo" widthfirst="4%"></a> 
-   CSS was used to style my website and make it responsive. CSS and HTML were the core technologies I used to create a 
+   CSS was used to style my website and make it responsive. CSS and HTML were the core technologies i used to create a 
    image slider and gallery page.
  <br>
 
@@ -53,7 +55,7 @@ This website is created as my very first milestone project for Code Institute.
 
 ### User Experience
 
-- I want to find out what the website is about, as soon as I clicked on the home page.
+- As a user, i wanted to find out what the website is about, as soon as I clicked on the home page.
 - I wanted to be able to navigate the website easily, without getting lost and having to scroll to find my place.
 - I also wanted to find out what the city had to offer, without having to search too long.
 - It's also great to have images available without having to go to another page.
@@ -65,20 +67,20 @@ This website is created as my very first milestone project for Code Institute.
 
 ### Existing FeaturesS
 - __Navigation Bar__
-    - As a user, I want to be able to navigate the website easily without getting lost and having to scroll to find my place.
-    - The fully responsive navigation bar is featured in the upper right hand side of the website on each page, including 
+    - As a user, I want to be able to navigate the website easily.
+    - The fully responsive navigation bar is featured in the upper right hand side of the website on each page, on 
       Home, Places to Eat and Gallery.
     - The current page you are on is underlined in the navigation bar, helping the user understand which part of the 
-      website they're viewing.
-    - You can access each page on the navigation bar on any page, Home, Places to Eat and Gallery. 
+      website's page they're viewing.
+    - You can access each page on the navigation bar, Home, Places to Eat and Gallery. 
 
     <img src="assets/readme-images/navbar.png" alt="Screenshot of nav bar" width="50%">
     
     
 - __Main Image__
-    - As soon as you click on the home page, the user automatically knows that the website is about.
+    - As soon as you click on the home page, the user automatically knows what the website is about.
     - The main image is a beautiful arial view of Bristol, as the sun sets.
-    - Includes two headings to describe the name and summary of what the website entails.
+    - It includes two headings to describe the name and summary of what the website entails.
     <br>
 
     <img src="assets/readme-images/bristol-image.png" alt="Screenshot of bristol image" width="50%">   
@@ -104,9 +106,9 @@ This website is created as my very first milestone project for Code Institute.
     - As a user, i wanted suggestions on the top places to Visit in Bristol.
     - As you scrowl down the home page, there are 5 image sliders.
     - Each image slider showcases a short gallery
-    - Each one, with a title and a description.
-    - Below the description there is a sub-title, with Contact Information.
-    - The contact information, has a link to it's main website, location and telephone number.
+    - Each image slider has a title and information about it.
+    - Below the information there is a sub-title, with Contact details.
+    - Contact detais, has a link to it's main website, location and telephone number.
     - This was created using just HTML and CSS.
 
     <img src="assets/readme-images/imageslider.png" alt="Screenshot of one image slider" width="50%">  
@@ -117,10 +119,10 @@ This website is created as my very first milestone project for Code Institute.
 
     - As a user, if i'm visiting Bristol, i would also like to know a great place to eat.
     - As you click on the next page, there are 5 suggestions on where to eat.
-    - The name for the restaurant is displayed, with its image.
+    - The name of the restaurant is displayed, with its image.
     - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
-    - Also each one has a description, of the type of food they serve.
-    - And finally there is a main link to each restaurant.
+    - Each one has a description, of the type of food they serve.
+    - Underneath the description there is a main link to each restaurant.
 
     <img src="assets/readme-images/restimage.png" alt="Screenshot of one of places to eat" width="50%">  
 
@@ -139,11 +141,14 @@ This website is created as my very first milestone project for Code Institute.
 - __Social Media Links__  
     
     - All 3 pages have the same footer.
-    - All 3 pages include links to social medias.
+    - And they all include links to social media.
     - The icons used on the footer was taken from [font awesome](https://fontawesome.com/)
 
 
-     <img src="assets/readme-images/footer.png" alt="Screenshot of one of image gallery" width="50%">  
+  
+   <img src="assets/readme-images/footer.png" alt="Screenshot of one of image gallery" width="50%">  
+
+ <hr>  
 
 ## Design
 
@@ -152,22 +157,30 @@ This website is created as my very first milestone project for Code Institute.
     - I used Balsamiq to construct my wireframes for this project. Had a few initial rough ideas, but don't necessarily 
       reflect the finished website.
 
+- __Fonts__ 
+
+    - I wanted to keep the fonts looking simple and bold.
+    - The fonts used on this webiste was used from [google fonts](https://fonts.google.com/)
+
+
 - __Images__  
 
-     - All the images on the 5 image sliders and the Gallery, were taken by me, as i live near Bristol. As i new where to go.
-     - The main image arial view of Bristol was taken from Yahoo Bristolimages.co.uk4
+     - Created 5 image sliders on my home page to make the website more eye catching.
+     - All 5 image sliders, the images were taken by me and in the Gallery page.
+       As i live near Bristol, and new where to go.
+     - The main image arial view of Bristol was taken from Yahoo Bristolimages.co.uk.
      - The restaurant images were taken from [open table](https://www.opentable.co.uk/)
+
+<hr>
 
 ## Testing 
 
 - __Lighthouse__  
 
-     - When manual testing, i put it through Lighthouse. My mentor noticed a few errors with my headings, which i 
-       arranged correctly.
-     - Also i needed to make it responsive, on mobile devices the images were too big.
-     - Was also having problems wih my image slider, wasnt changing images, Had some advice on Slack.
-     - My Gallery was displaying all of my images in a row. Was advised to use flex-contain by fellow mentors on Slack
-       to sort that out.
+     - When manual testing, i put it through Lighthouse.
+     - Once i sorted out the bugs, it helped my wesite more responsive and improve my score, in Performance,
+       Accessibility, Best Practices and SEQ.
+     - As you can see in the final result below.
 
     <br>
     
@@ -205,17 +218,30 @@ This website is created as my very first milestone project for Code Institute.
      <img src="assets/readme-images/nucheckergal.png" alt="Screenshot of Nu HTML Checker, gallery" width="50%">  
 
 - __CSS__  
-     - Had errors before before my CSS passed. Had a <width=100%> on my HTML page (img src) on Places to Eat.
-       Sorted that out, by adding it onto my Media Queries. With help from Student Tutoring.
+     - Errors all sorted, when passed it through the official[jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
     <img src="assets/readme-images/W3C1.png" alt="Screenshot of W3C CSS Validator result" width="50%">
 
 <hr>
 
+## Bugs
+
+  - When i was manual testing on Lighthouse, my mentor noticed a few errors with my headings, which i 
+    arranged correctly.
+  - When trying to make it responsive on Lightouse, on mobile devices the image slider were too big.
+    With help from my mentor, got sorted out. 
+  - Also the image slider, wasnt changing images, had some advice on Slack.
+  - My Gallery was displaying all of my images in a row. Was advised to use flex-contain by fellow mentors on Slack.
+  - When passing it through the official - [jigsaw validator](https://jigsaw.w3.org/css-validator/), had a <width=100%> 
+    on my HTML page (img src) Places to Eat.
+    With help from Student Tutoring, got sorted by adding it onto Media Queries.
+ 
+<hr>   
+
    ## Deployment
 
-  Visit Bristol was deployed on Github pages. The process are as follows -
-  :
+   ### Visit Bristol was deployed on Github pages. The process are as follows -
+
   - Went to the project's repository and navigated to the 'Settings' tab in the far right.
   - I scrolled down to the 'Code and automation' section and clicked into the 'Pages' tab.
   - Under 'source', I used the drop down menu to select 'main' and then clicked save.
@@ -225,11 +251,11 @@ This website is created as my very first milestone project for Code Institute.
   
   [Live Website - Visit Bristol](https://pal772.github.io/Visit-Bristol/ "Live Website - Visit Bristol")
 
-## Credits
-
 <hr>
 
-## Content
+## Credits
+
+### Content
 
   - The fonts used on this webiste was used from [google fonts](https://fonts.google.com/)
   - The main arial view image of Bristol was taken from Yahoo Bristolimages.co.uk
